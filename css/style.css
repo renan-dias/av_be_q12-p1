@@ -1,0 +1,30 @@
+/* Adicione aqui qualquer estilo CSS personalizado que você precise */
+body.bg-gradient {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
